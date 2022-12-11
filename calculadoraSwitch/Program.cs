@@ -12,11 +12,10 @@ Console.WriteLine(@"
      oooooo   oo    oo   oooooo  oooooo   oooooo  oooooo  oo    oo  oo   oo  oo    00  oo  oo   oo    oo
       oooo    oo    oo   oooooo   oooo    oooooo  oooooo  oo    oo  oooooo   oooooooo  oo   oo  oo    oo   ");
 
-Console.Write("\n\ndigite qual operação deja realizar\nmultiplicação, divisão, soma ou subtração : ");
+Console.Write("\n\ndigite qual operação deseja realizar\nmultiplicação, divisão, soma ou subtração : ");
 
 string operacao = Console.ReadLine();
-double soma, sub;
-double mul, div;
+double mul, div, soma, sub;
 
 Console.Write("informe o primeiro numero da operação : ");
 double nmr1 = double.Parse(Console.ReadLine());
